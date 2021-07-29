@@ -1,0 +1,25 @@
+public class equallength {
+   public static void main(String[] args) {
+      int x1=5;
+      int x2= 10;
+		int x3=30;
+		int x4=35;
+      int y1= 15;
+      int y2= 15;
+		int y3=20;
+		int y4=20;
+      int l1;
+      l1 = ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+		int l2;
+		l2 = ((x4-x3)*(x4-x3))+((y4-y3)*(y4-y3));
+      double length1=Math.floor( Math.sqrt(l1));
+	   double length2=Math.floor( Math.sqrt(l2));
+		if(length1==length2){
+
+				System.out.println("The lengths are equal");	
+     
+
+   }
+
+}
+
